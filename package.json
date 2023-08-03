@@ -4,7 +4,8 @@
   "description": "this is a 'Mercado Libre' copy project hehehe",
   "main": "index.js",
   "scripts": {
-    "test": "npx nodemon app.js"
+    "test": "npx nodemon app.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
