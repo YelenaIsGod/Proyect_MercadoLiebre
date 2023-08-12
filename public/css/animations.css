@@ -60,3 +60,8 @@
 .danger:hover {
     background-color: var(--hover-red); 
 }
+
+footer section i:hover {
+    color: var(--yellow);
+    transition-duration: 0.5s;
+}

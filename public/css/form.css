@@ -31,12 +31,12 @@ input, label {
     display: block;
 }
 
-label {
-    color: darkgray;
-}
-
 input {
     width: 100%;
+}
+
+label {
+    color: darkgray;
 }
 
 .buttons {
@@ -73,6 +73,17 @@ input {
     font-weight: 700;
     font-size: 1em; 
 }
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 0;
+}
+
+.checkbox-container input{
+    position: absolute;
+}
   
 @media (min-width: 761px) {
     .form-container {
@@ -95,11 +106,6 @@ input {
         font-size: 0.8em;
         font-weight: 300;
         color: var(--dark-grey);
-    }
-
-    .radio-checkbox label,
-    .radio-checkbox input {
-        display: inline-block;
     }
 
     .passwords {
