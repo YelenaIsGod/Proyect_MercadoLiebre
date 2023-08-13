@@ -2,10 +2,10 @@
   "name": "proyect_mercadoliebre",
   "version": "1.0.0",
   "description": "this is a 'Mercado Libre' copy project hehehe",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "npx nodemon app.js",
+    "start": "node src/app.js",
+    "dev": "npx nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
