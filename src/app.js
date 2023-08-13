@@ -19,4 +19,4 @@ app.get('/login', (req, res) => {
 })
 
 
-app.listen(3031, () => console.log(`[server] runing on port ${PORT}`));
+app.listen(PORT, () => console.log(`[server] runing on port ${PORT}`));
