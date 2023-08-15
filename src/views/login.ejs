@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head.ejs') %>
+    <link rel="stylesheet" href="/css/login.css" />
+    <link rel="stylesheet" href="/css/form.css">
+    <title>Iniciar Sesion</title>
+</head>
+<body>
+    <!--HEADER-->
+    <%- include('./partials/header.ejs') %>
+    
+    <main>
+        <div class="login-container">
+            <h2 class="form-title">Login</h2>
+            <form action="/login" method="POST">
+                
+                <div class="inputs-wrapper">
+                    <div class="user-input-container">
+                        <label for="nombre_usuario">Nombre de usuario:</label>
+                        <input type="text" id="nombre_usuario" name="nombre_usuario" required>
+                    </div>
+                    
+                    <div class="password-input-container">
+                        <label for="contrasena">Contraseña:</label>
+                        <input type="password" id="contrasena" name="contrasena" required>
+                    </div>
+                    
+                    <div class="login-button-wrapper">
+                        <button class="button primary login-button" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!--FOOTER-->
+    <%- include('./partials/footer.ejs') %>
+</body>
