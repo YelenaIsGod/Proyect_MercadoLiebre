@@ -1,7 +1,5 @@
 const express = require('express');
-const indexRouter = require('./routes/index');
-const registerRouter = require('./routes/register');
-const loginRouter = require('./routes/login');
+const {indexRouter, loginRouter, registerRouter} = require('./routes/index');
 
 const app = express();
 const PORT = process.env.PORT || 3031;

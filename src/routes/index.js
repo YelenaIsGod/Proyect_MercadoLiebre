@@ -1,8 +1,16 @@
 const express = require('express');
-const index = require('../controllers/index');
+const {indexController, loginController, registerController} = require('../controllers/index');
 
 const indexRouter = express.Router();
+const loginRouter = express.Router();
+const registerRouter = express.Router();
 
-indexRouter.get('/', index);
+indexRouter.get('/', indexController);
+loginRouter.get('/', loginController);
+registerRouter.get('/', registerController);
 
-module.exports = indexRouter;
+module.exports = {
+    indexRouter,
+    loginRouter,
+    registerRouter
+};
