@@ -1,0 +1,19 @@
+<div class="products">
+    <% products.forEach(function(product) { %>
+        <div class="product">
+            <div class="img-product">
+                <img src="images/<%=product.imagen%>" alt="Cafetera moulinex">
+            </div>
+            
+            <div class="product-description-container">
+                <div class="truck-icon rotate">
+                    <i class="fas fa-truck"></i>
+                </div>
+                
+                <p class="price">$<%=product.precio%></p>
+                <p class="discount"><%=product.descuento%>% Off</p>
+                <p class="product-name"><%=product.nombre%></p>
+            </div>
+        </div>
+    <% }); %>
+</div>

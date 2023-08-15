@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Cafetera Moulinex",
+        "precio": 6770,
+        "descuento": 40, 
+        "imagen": "cafetera.jpg"
+    },
+    {
+        "nombre": "MacBook Pro 2019",
+        "precio": 230000,
+        "descuento": 20, 
+        "imagen": "macpro.jpg"
+    },  
+    {
+        "nombre": "Samsung Galaxy S10",
+        "precio": 70500,
+        "descuento": 10, 
+        "imagen": "galaxys10.jpg"
+    },
+    {
+        "nombre": "SmartTv Samsung 43",
+        "precio": 23200,
+        "descuento": 5, 
+        "imagen": "smarttv.jpg"
+    }
+]
