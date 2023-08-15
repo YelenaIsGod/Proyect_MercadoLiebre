@@ -6,8 +6,10 @@ const loginRouter = require('./routes/login');
 const app = express();
 const PORT = process.env.PORT || 3031;
 
-app.use(express.static('public'));
+app.set('view engine', 'ejs');
+app.set('views', './src/views');
 
+app.use(express.static('public'));
 app.use('/', indexRouter);
 app.use('/register', registerRouter);
 app.use('/login', loginRouter);
