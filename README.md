@@ -12,4 +12,4 @@ You are Amonizzed 🧐
 
 This is so interesanting 🧐
 
-- Corimayo Maximiliano (a fool)
+-- Corimayo Maximiliano (a fool)
